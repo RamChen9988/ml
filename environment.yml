@@ -1,0 +1,19 @@
+# Conda环境配置文件
+# 使用命令: conda env create -f environment.yml
+# 激活环境: conda activate ml-linear-regression
+
+name: ml-linear-regression
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas>=1.5.0
+  - numpy>=1.21.0
+  - matplotlib>=3.5.0
+  - seaborn>=0.11.0
+  - scikit-learn>=1.0.0
+  - pip
+  - pip:
+    # 可选：如果需要额外的pip包可以在这里添加
+    # - joblib>=1.1.0
