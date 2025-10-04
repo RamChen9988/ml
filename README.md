@@ -1,6 +1,6 @@
 # 机器学习线性回归项目 - 环境安装指南
 
-本项目是一个机器学习线性回归实战项目，用于预测房价并进行模型评估。
+本项目是一个机器学习实战项目，包括线性回归和逻辑回归，用于预测房价并进行模型评估。
 
 ## 项目依赖
 
@@ -106,7 +106,8 @@ pip install -r requirements.txt
 
 ## 项目文件说明
 
-- `linear.py` - 主程序文件
+- `01_linear.py` - 线性回归主程序文件
+- `02_logistic_regression.py` - 逻辑回归主程序文件
 - `requirements.txt` - pip依赖包列表
 - `environment.yml` - Conda环境配置文件
 - `install_env.bat` - Windows安装脚本
