@@ -21,6 +21,9 @@ requests>=2.28.0
 # 模型保存和加载
 joblib>=1.1.0
 
+# 计算机视觉
+opencv-python>=4.5.0
+
 # 可选：用于数据科学环境
 # jupyter>=1.0.0
 # ipykernel>=6.0.0
